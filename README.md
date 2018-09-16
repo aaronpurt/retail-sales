@@ -1,7 +1,7 @@
 # retail sales
 
 
-- [retail sales](#retail sales)
+
   - [Introduction](#introduction)
     - [Development mode](#development-mode)
     - [Production mode](#production-mode)
