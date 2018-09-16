@@ -1,8 +1,7 @@
-# full-stack-react-node
+# retail sales
 
-This is a boilerplate to build a full stack web application using React, React Router (v4), Redux, Node.js, Express and Webpack. It is also configured with webpack-dev-server and babel.
 
-- [full-stack-react-node](#full-stack-react-node)
+- [retail sales](#retail sales)
   - [Introduction](#introduction)
     - [Development mode](#development-mode)
     - [Production mode](#production-mode)
@@ -16,8 +15,6 @@ This is a boilerplate to build a full stack web application using React, React R
     - [Concurrently](#concurrently)
 
 ## Introduction
-
-[Create React Index](https://github.com/facebook/create-react-app) is a quick way to get started with React development and it requires no build configuration. But it completely hides the build config which makes it difficult to extend. It also requires some additional work to integrate it with an existing Node.js/Express backend application.
 
 This is a simple full stack [React](https://reactjs.org/) application with a [Node.js](https://nodejs.org/en/) and [Express](https://expressjs.com/) backend. Client side code is written in React and the backend API is written using Express.
 
@@ -33,10 +30,10 @@ In the production mode, we will have only 1 server running. All the client side 
 
 ```bash
 # Clone the repository
-git clone https://github.com/aronpurt/retail-sales
+git clone https://github.com/aaronpurt/retail-sales
 
 # Go inside the directory
-cd full-stack-react-node
+cd retail-sales
 
 # Install dependencies
 npm install
