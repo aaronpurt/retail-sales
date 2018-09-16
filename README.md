@@ -52,7 +52,11 @@ npm start
 
 ### Tech Stack Resource URLs
 https://github.com/FortAwesome/react-fontawesome#get-started
+
 https://github.com/jerairrest/react-chartjs-2
+
+https://github.com/reactjs/react-chartjs
+
 https://github.com/react-tools/react-table
 
 
