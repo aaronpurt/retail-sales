@@ -6,4 +6,4 @@ const app = express();
 app.use(express.static('dist'));
 app.use(router);
 
-app.listen(8080);
+app.listen(process.env.PORT || 8080)
