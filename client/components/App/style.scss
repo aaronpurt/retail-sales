@@ -1,0 +1,23 @@
+
+@import "../../assets/variables.scss";
+
+/*
+* Description: The main App style SCSS 
+* 
+*/
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #F6F8FA;
+  font-family:sans-serif;
+
+}
+
+.container {
+  section {
+    width: 70%;
+    margin: 30px auto;
+  }
+}

@@ -1,0 +1,26 @@
+header {
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+
+  nav {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: left;
+    padding: 15px 0;
+
+    a {
+      text-decoration: none;
+      padding: 10px 15px;
+      font-size: 18px;
+      font-weight: 500;
+      color: black;
+
+      &:hover {
+        background: #fff;
+      }
+    }
+  }
+}

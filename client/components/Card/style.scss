@@ -1,0 +1,73 @@
+
+@import "../../assets/variables.scss";
+
+.card {
+  max-width: 340px;
+  height:100%;
+  margin-bottom: 30px;
+  background-color: #fff;
+  text-align: center;
+
+  .card-image {
+    position: relative;
+
+    img {
+      width: 50%;
+      padding:5px;
+    }
+  }
+  .card-title {
+    font-weight: bold;
+  }
+  .card-subtitle {
+    color: $third-color;
+    padding:0px 20px 10px 20px;
+    margin:0px 20px 10px 20px;
+    font-size:14px;
+  }
+  
+  .tags-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border-bottom: 1px solid $third-color;
+    border-top: 1px solid $third-color;
+    padding:8px;
+  }
+  .tag {
+    border: 1px solid $secondary-color;
+    border-radius: 4px;
+    color: $header-color;
+    padding:5px;
+    margin:8px;
+    font-size:x-small;
+  }
+
+  /*Labels and icons*/
+
+  .icon-container {
+    text-align:left;
+    vertical-align: middle;
+   
+    padding: 5% 0;
+  }
+
+  .icon-position {
+    padding: 4% 10%;
+  }
+
+  .chartbar-icon {
+    color: $primary-color;
+  }
+  .home-icon {
+    color: $secondary-color; 
+  }
+  .active {
+    margin-left: 10px;
+    color: $active-color; 
+  }
+  .non-active {
+    margin-left: 10px;
+    color: $nonactive-color; 
+   
+  }
+}

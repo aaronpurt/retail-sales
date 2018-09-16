@@ -1,0 +1,43 @@
+
+.menu { grid-area: menu; }
+.chart { grid-area: chart; }
+.table { grid-area: table; }
+
+@media only screen and (max-width: 768px) {
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+          'menu'
+          'chart'
+          'table';
+        grid-gap: 10px;
+        background-color:#F6F8FA;
+        padding: 10px;
+      }
+      .grid-container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+      }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+          'menu menu chart chart chart chart chart chart chart chart chart'
+          'menu menu table table table table table table table table table';
+        grid-gap: 30px 10px;
+        background-color:#F6F8FA;
+        padding: 20px;
+      }
+      .grid-container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 0px 0px;
+      }
+      
+
+}
