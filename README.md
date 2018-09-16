@@ -1,6 +1,5 @@
 # retail sales
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
   - [Introduction](#introduction)
     - [Development mode](#development-mode)
