@@ -4,11 +4,11 @@
   "description": "Retail Sales Application for pulling sales data from server.",
   "main": "server/index.js",
   "scripts": {
-    "start": "node server/index.js",
+    "dev": "node server/index.js",
     "build": "webpack --mode production",
     "client": "webpack-dev-server --mode development --devtool inline-source-map --hot",
     "server": "nodemon server/index.js",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "start": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
