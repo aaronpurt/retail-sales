@@ -1,7 +1,7 @@
 {
-  "name": "retail-sales-application",
+  "name": "retail-sales",
   "version": "1.0.0",
-  "description": "Retail Sales application",
+  "description": "Retail Sales Application for pulling sales data from server.",
   "main": "server/index.js",
   "scripts": {
     "start": "node server/index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aaronpurt/retai-sales-application.git"
+    "url": "git+https://github.com/aaronpurt/retail-sales.git"
   },
   "keywords": [
     "javascript",
@@ -29,7 +29,7 @@
   "author": "Aaron Purtill",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aaronpurt/retai-sales-application/issues"
+    "url": "https://github.com/aaronpurt/retail-sales/issues"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.4",
