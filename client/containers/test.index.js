@@ -5,7 +5,7 @@ import Card from '../components/Card/index';
 import Table from '../components/Table/index';
 import Chart from '../components/Chart/index';
 
-describe( 'Card component', () => {
+describe( 'Home container component', () => {
 
     // Proposal: This data would be moved to a shared area for tests. 
     // To avoid duplication
